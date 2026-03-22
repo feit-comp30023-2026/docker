@@ -1,0 +1,28 @@
+// Adapted from https://github.com/devcontainers/templates
+{
+    "name": "comp30023",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+      "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "EditorConfig.EditorConfig"
+                // rust-lang.rust-analyzer
+            ]
+        }
+    }
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+
+    // Configure tool-specific properties.
+    // "customizations": {},
+
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "root"
+}
